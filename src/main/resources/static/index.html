@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script
+            src="https://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous">
+
+    </script>
+</head>
+<body>
+    <h1 id = "main_header">Derek's Maze Solver</h1>
+
+    Enter in arg1: <input id = "arg1_input" type="text" name="arg1">
+    Enter in arg2: <input id = "arg2_input" type="text" name="arg2">
+    <input id = "submit_get_request_button" type="submit" value="Make GET request with arg1 and arg2">
+    <br>
+    Get Request Response: <label id = "get_request_response_text"></label>
+
+    <br>
+    <br>
+
+    Enter in Maze:<br><br>
+    <textarea id = "maze_input" rows="30" cols="30">Replace with your maze info</textarea>
+    <br>
+    <br>
+    <input id = "submit_post_request_button" type="submit" value="Make POST request with maze info">
+
+
+    <script>
+        window.alert($("#main_header").text());
+    </script>
+    <script src="javascript/script.js"></script>
+
+</body>
+
+
+
+</html>
